@@ -28,7 +28,7 @@ dotnet add package Duende.IdentityServer.Configuration
 #### Configure Services
 ```cs
 builder.Services.AddIdentityServerConfiguration(opt =>
-    opt.LicenseKey = "<license>";
+    opt.LicenseKey = "<license>"
 );
 ```
 The Configuration API feature is included in the IdentityServer Business edition
